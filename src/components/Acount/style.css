@@ -1,0 +1,109 @@
+:root {
+    --cor-padrao: #00ddff;
+    --cor-secundaria: #023950;
+    --cor-branca: #fff;
+    --cor-font-p: #555;
+    --cor-btn: #15ff00;
+    --cor-btn: #80c872;
+    --cor-preta: #000;
+    --cor-font-corpo: #555;
+    --cor-font-corpo-leve: #777;
+}
+
+
+/* Minha Conta */
+
+.minha-conta {
+    padding: 50px 0;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+/*Containner cards*/
+
+.formulario {
+    position: relative;
+    padding: 20px 0;
+    text-align: center;
+    width: 300px;
+    height: 430px;
+    background-color: var(--cor-branca);
+    box-shadow: 5px 5px 50px #555;
+    overflow: hidden;
+}
+
+.formulario span {
+    display: inline-block;
+    width: 100px;
+    padding: 0 10px;
+    font-weight: bold;
+    color: var(--cor-font-corpo);
+    cursor: pointer;
+}
+
+.btn-form {
+    display: inline-block;
+}
+
+.formulario form {
+    position: absolute;
+    top: 110px;
+    max-width: 300px;
+    padding: 0 20px;
+    transition: 0.8s;
+}
+
+.formulario form input {
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid var(--cor-padrao);
+    border-radius: 3px;
+}
+
+.formulario form input:focus {
+    outline: none;
+}
+
+.btn-3 {
+    width: 100%;
+    height: 25px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--cor-padrao);
+    cursor: pointer;
+}
+
+.btn-3:hover {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-branca);
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+.formulario form a {
+    font-size: 12px;
+    color: var(--cor-font-corpo);
+    cursor: pointer;
+}
+
+#EntrarPainel {
+    left: 0;
+}
+
+#CadastroSite {
+    left: -300px;
+}
+
+#Indicador {
+    width: 100px;
+    height: 3px;
+    border: none;
+    background-color: var(--cor-padrao);
+    margin-top: 8px;
+    transform: translateX(0px);
+    transition: 1s;
+}

@@ -1,0 +1,11 @@
+
+
+#CadastroSite-2 {
+    left: 0px;
+    margin-top:-55px;
+}
+
+textarea:focus{
+    outline: none;
+}
+

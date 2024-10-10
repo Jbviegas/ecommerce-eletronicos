@@ -1,0 +1,71 @@
+:root {
+    --primary-color: #f80;
+    --secundary-color: #00498d;
+    --dark-primary-color: #e07800;
+    --dark-secundary-color: #00315f;
+    --light-color: #e9e9e9;
+    --dark-color: #2c2c2c;
+}
+
+.exclusive-section {
+    background-color: var(--secundary-color);
+    color: #fff;
+}
+
+.page-inner-content .content {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 80px 16px;
+}
+
+.see-more-btn {
+    color: #fff;
+}
+
+.content .left-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.content .left-side p {
+    padding: 30px 0;
+    line-height: 22px;
+}
+
+@media(max-width:768px) {
+    .section-title h2 {
+        font-size: 19px;
+    }
+
+    .section-title p {
+        font-size: 14px;
+    }
+
+    .section-title span {
+        font-size: 16px;
+    }
+
+    .page-inner-content .content {
+        flex-direction: column-reverse;
+    }
+
+    .content .right-side img {
+        max-width: 250px;
+    }
+
+    .content .left-side {
+        text-align: center;
+    }
+
+    .see-more-btn {
+        height: 30px;
+    }
+}
+
+@media(max-width:1024px) {
+
+    .page-inner-content .content {
+        flex-direction: column-reverse;
+    }
+}

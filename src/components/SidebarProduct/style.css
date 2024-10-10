@@ -1,0 +1,65 @@
+.details {
+    margin-top: 8px;
+}
+
+.details b {
+    font-size: 14px;
+}
+
+.sidebar-product {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid var(--light-color);
+
+
+    margin: 16px 0;
+}
+
+.sidebar-product button {
+    background-color: var(--dark-color);
+    color: #fff;
+    width: 16px;
+    height: 19px;
+    font-size: 12px;
+    border-radius: 50%;
+}
+
+.sidebar-product img {
+    width: 75px;
+}
+
+.input-and-button {
+    width: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.input-quantity {
+    width: 55px;
+    border: 1px solid;
+    border-radius: 4px;
+    margin: 4px 0;
+}
+
+.valor-input {
+    margin-left: 10px;
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.valor-input button {
+    color: yellow;
+    font-size: 13px;
+}
+
+.quantity-margin {
+    margin-bottom: 8px;
+}
+
+.right-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}

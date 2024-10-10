@@ -1,0 +1,11 @@
+.containner-about{
+    height: 550px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.div-about{
+    line-height: 38px;
+}
